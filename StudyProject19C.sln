@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StudyProject", ".", "{418A64EA-8756-4E1B-85B4-CB831191C23C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{7b48688e-471e-49b0-8296-097f1643d193}|AccosoftRML.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/AccoSoft"
+		Debug.AspNetCompiler.PhysicalPath = "..\StudyProject\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AccoSoft\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AccoSoft"
+		Release.AspNetCompiler.PhysicalPath = "..\StudyProject\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AccoSoft\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "6200"
+		SlnRelativePath = "..\StudyProject\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccosoftRML", "..\AccosoftRML\AccosoftRML.csproj", "{7B48688E-471E-49B0-8296-097F1643D193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{418A64EA-8756-4E1B-85B4-CB831191C23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418A64EA-8756-4E1B-85B4-CB831191C23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418A64EA-8756-4E1B-85B4-CB831191C23C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{418A64EA-8756-4E1B-85B4-CB831191C23C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{418A64EA-8756-4E1B-85B4-CB831191C23C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{418A64EA-8756-4E1B-85B4-CB831191C23C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{418A64EA-8756-4E1B-85B4-CB831191C23C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{418A64EA-8756-4E1B-85B4-CB831191C23C}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{418A64EA-8756-4E1B-85B4-CB831191C23C}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{418A64EA-8756-4E1B-85B4-CB831191C23C}.Release|x86.ActiveCfg = Debug|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Debug|x86.Build.0 = Debug|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Release|x86.ActiveCfg = Release|Any CPU
+		{7B48688E-471E-49B0-8296-097F1643D193}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF1B6059-AA73-450B-8E04-F52C27F8C102}
+	EndGlobalSection
+EndGlobal
